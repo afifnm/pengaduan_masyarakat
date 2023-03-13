@@ -22,7 +22,8 @@
                     <a href="lihat.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Tanggapan</a> 
                     <?php } ?>
                     <?php if($_SESSION['level']=="Rakyat"){ ?>
-                    <a href="lihat.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Pengaduan</a> 
+                    <a href="pengaduan_input.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Input Pengaduan</a> 
+                    <a href="pengaduan_lihat.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Lihat Pengaduanku</a> 
                     <?php } ?>
                 </div>
             </nav>
